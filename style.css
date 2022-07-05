@@ -3,23 +3,24 @@
     padding: 0;
     margin: 0; 
 }
+   /* landing css */
 
 header{background-color: #ffffff;
-       
-       
-       border:1px solid black;
-       
         display: flex;
         justify-content: space-between;
-        padding: 10px 30px;
+        padding: 10px 100px;
         align-items: center;
         align-content: center;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+#header1 >img{
+      height: 40px;
+}
 #header1{
         display: flex;
         justify-content: space-between;
-        gap: 40px;
+        align-items: center;
+        gap: 70px;
 }
 #header2{
           display: flex;
@@ -29,7 +30,7 @@ header{background-color: #ffffff;
           height: 34px;
            border-radius: 20px;
            align-items: center;
-       
+      padding: 10px;       
           top:20px;
 }
 nav{
@@ -40,6 +41,7 @@ nav{
 }
 nav > a{
       display: block;
+      text-decoration: none;
 }
 #get{
       background-color:  #FFA500;
@@ -69,26 +71,36 @@ nav > a{
         flex-direction: column;
         
         
-}
-#join{
-    background: #FFA500;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    height: 40px;
-    width: 100px;
-    margin: 0px auto;
-    padding:10px;
-    }
-/* #feed{
-         box-sizing: border-box;
-         height: 20px;
+      }
+      #join{
+            background: #FFA500;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 5px;
+            height: 40px;
+            width: 100px;
+            margin: 0px auto;
+            padding:10px;
+      }
+      #mainIndex{
+            gap: 20px;
+            display: grid;
+            margin-left: 20px;
+            place-items: center;
+            place-content: center;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr ;
+      }
+            
+      /* #feed{
+            box-sizing: border-box;
+            height: 20px;
          width: 30px;
 } */
 .banner{
          box-sizing: border-box;
          background-color: #c4c4c4;
-         width: 20%;
-         height: 50%;
+         width: 70%;
+         height: 100%;
          border:1px solid #FFA500;
           border-radius: 15px;
           position: relative;
@@ -130,7 +142,7 @@ nav > a{
              border: 2PX SOLID black;
              border-radius:50%;
              position: absolute;
-             top: 130px;
+             top: 150px;
              left: 20px;
 }
 .name{
@@ -163,8 +175,8 @@ nav > a{
 .banner1{
     box-sizing: border-box;
     background-color: #c4c4c4;
-    width: 20%;
-    height: 50%;
+    width: 70%;
+    height: 100%;
     border:1px solid #FFA500;
      border-radius: 15px;
      position: relative;
@@ -206,7 +218,7 @@ nav > a{
         border: 2PX SOLID black;
         border-radius:50%;
         position: absolute;
-        top: 130px;
+        top: 150px;
         left: 20px;
 }
 .name1{
@@ -224,17 +236,12 @@ font-weight: bold;
   padding: 10px;
   font-family: 'BR Firma';   
    }
-main{
-      padding: 10px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-}
+
 .banner2{
     box-sizing: border-box;
     background-color: #c4c4c4;
-    width: 20%;
-    height: 50%;
+    width: 70%;
+    height: 100%;
     border:1px solid #FFA500;
      border-radius: 15px;
      position: relative;
@@ -276,7 +283,7 @@ main{
         border: 2PX SOLID black;
         border-radius:50%;
         position: absolute;
-        top: 130px;
+        top: 150px;
         left: 20px;
 }
 .name2{
@@ -298,8 +305,8 @@ font-weight: bold;
    .banner3{
     box-sizing: border-box;
     background-color: #c4c4c4;
-    width: 20%;
-    height: 50%;
+    width: 70%;
+    height: 100%;
     border:1px solid #FFA500;
      border-radius: 15px;
      position: relative;
@@ -341,7 +348,7 @@ font-weight: bold;
         border: 2PX SOLID black;
         border-radius:50%;
         position: absolute;
-        top: 130px;
+        top: 150px;
         left: 20px;
 }
 .name3{
@@ -362,8 +369,8 @@ font-weight: bold;
    .banner4{
     box-sizing: border-box;
     background-color: #c4c4c4;
-    width: 20%;
-    height: 50%;
+    width: 70%;
+    height: 100%;
     border:1px solid #FFA500;
      border-radius: 15px;
      position: relative;
@@ -405,7 +412,7 @@ font-weight: bold;
         border: 2PX SOLID black;
         border-radius:50%;
         position: absolute;
-        top: 130px;
+        top: 150px;
         left: 20px;
 }
 .name4{
@@ -427,8 +434,8 @@ font-weight: bold;
    .banner5{
     box-sizing: border-box;
     background-color: #c4c4c4;
-    width: 20%;
-    height: 50%;
+    width: 70%;
+    height: 100%;
     border:1px solid #FFA500;
      border-radius: 15px;
      position: relative;
@@ -470,7 +477,7 @@ font-weight: bold;
         border: 2PX SOLID black;
         border-radius:50%;
         position: absolute;
-        top: 130px;
+        top: 150px;
         left: 20px;
 }
 .name5{
@@ -492,8 +499,8 @@ font-weight: bold;
 .banner6{
 box-sizing: border-box;
 background-color: #c4c4c4;
-width: 20%;
-height: 50%;
+width: 70%;
+height: 100%;
 border:1px solid #FFA500;
 border-radius: 15px;
 position: relative;
@@ -535,7 +542,7 @@ padding-top: 40px;
    border: 2PX SOLID black;
    border-radius:50%;
    position: absolute;
-   top: 130px;
+   top: 150px;
    left: 20px;
 }
 .name6{
@@ -557,8 +564,8 @@ font-family: 'BR Firma';
 .banner7{
 box-sizing: border-box;
 background-color: #c4c4c4;
-width: 20%;
-height: 50%;
+width: 70%;
+height: 100%;
 border:1px solid #FFA500;
 border-radius: 15px;
 position: relative;
@@ -600,7 +607,7 @@ padding-top: 40px;
    border: 2PX SOLID black;
    border-radius:50%;
    position: absolute;
-   top: 130px;
+   top: 150px;
    left: 20px;
 }
 .name7{
@@ -622,8 +629,8 @@ font-family: 'BR Firma';
 .banner8{
 box-sizing: border-box;
 background-color: #c4c4c4;
-width: 20%;
-height: 50%;
+width: 70%;
+height: 100%;
 border:1px solid #FFA500;
 border-radius: 15px;
 position: relative;
@@ -665,7 +672,7 @@ padding-top: 40px;
    border: 2PX SOLID black;
    border-radius:50%;
    position: absolute;
-   top: 130px;
+   top: 150px;
    left: 20px;
 }
 .name8{
@@ -686,8 +693,8 @@ font-family: 'BR Firma';
 .banner9{
 box-sizing: border-box;
 background-color: #c4c4c4;
-width: 20%;
-height: 50%;
+width: 70%;
+height: 100%;
 border:1px solid #FFA500;
 border-radius: 15px;
 position: relative;
@@ -729,7 +736,7 @@ padding-top: 40px;
    border: 2PX SOLID black;
    border-radius:50%;
    position: absolute;
-   top: 130px;
+   top: 150px;
    left: 20px;
 }
 .name9{
@@ -767,4 +774,109 @@ footer{
     font-size: large;
     
 
+}
+/* signIn css*/
+
+#signInMain{
+      display: flex;
+      justify-content: space-between;
+      box-sizing: border-box;
+      background-color: #E5E5E5;
+      border: 1px solid black ;
+      margin:70px auto;
+      height: 60vh;
+      width: 50vw;
+      
+      
+}
+
+#main1 {
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      padding: 50px 20px 70px 50px;
+      
+             
+  }  
+  #main2 {
+      width: 100%;
+      height: 100%;
+           
+  }
+   #main2 >img{
+      width: 100%;
+      height:100%;
+  } 
+  #user,#pass{
+              border: 1px solid black;
+              height: 25px;
+              padding: 10px;
+              width: 80%;
+              margin: 0px auto;          
+              
+  }
+  #signIn{
+           font-weight: bolder;
+           
+           margin:0px 60px 40px;
+  }
+  #forget{
+      width: 115px;
+      height: 16px;
+      font-family: 'BR Firma';
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 16px;
+      color: #FFA500;
+      margin-left: 55%;
+  }
+  #Sign{
+         border: 1px solid black;
+         background-color:#17AD1D;
+         display: block;
+         text-align: center;
+         width: 80%;
+         
+        height: 25px;
+         box-sizing: border-box;
+         padding: 5px;
+  }
+  #Sign1{
+           font-size: 9px;
+           font-family: 'BR Firma';
+           font-style: normal;
+           font-weight: 400;
+           line-height: 16px;
+  }
+   #sign2{
+               color:#FFA500;
+              
+  }
+  #or{
+        font-weight: bolder;
+  }
+  #google{
+      width: 60%;
+      height: 25px;
+      margin: 10px 30px   ;
+      border-radius: 33px;
+      padding: 5px;
+      text-align: center;
+      background-color: #FF2424;
+  }
+  #face{
+      width: 60%;
+      height: 25px;
+      margin: 10px 30px   ;
+      border-radius: 33px;
+      padding: 5px;
+      text-align: center;
+      background-color: #213FDC;
+  }
+  
+
+/*add work css*/
+#picAdd{
+         width: 100%;
+         height: 150px;
 }
