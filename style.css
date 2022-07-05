@@ -1,1 +1,770 @@
-* {box-sizing: border-box;}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+
+header{background-color: #ffffff;
+       
+       
+       border:1px solid black;
+       
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 30px;
+        align-items: center;
+        align-content: center;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#header1{
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+}
+#header2{
+          display: flex;
+          justify-content:space-between ;
+          border: 1px solid black;
+          width: 220px;
+          height: 34px;
+           border-radius: 20px;
+           align-items: center;
+       
+          top:20px;
+}
+nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+}
+nav > a{
+      display: block;
+}
+#get{
+      background-color:  #FFA500;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+       border-radius: 5px;
+       width: 100px;
+        height: 30px;
+        padding: 5px;
+        text-decoration: none;
+        
+}
+#top{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    justify-content: space-between;  
+    padding: 30px 40px;
+}
+ #top >div{
+           width: 30%;
+}
+#top >img{
+           width: 70%;
+} 
+#top1{
+        display: flex;
+        flex-direction: column;
+        
+        
+}
+#join{
+    background: #FFA500;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    margin: 0px auto;
+    padding:10px;
+    }
+/* #feed{
+         box-sizing: border-box;
+         height: 20px;
+         width: 30px;
+} */
+.banner{
+         box-sizing: border-box;
+         background-color: #c4c4c4;
+         width: 20%;
+         height: 50%;
+         border:1px solid #FFA500;
+          border-radius: 15px;
+          position: relative;
+}
+.banner> img{
+              width: 100%;
+              border:1px solid #FFA500;
+              border-top-left-radius: 15px;
+              border-top-right-radius: 15px;
+}
+#social{
+          padding-top: 40px;
+
+}
+
+#social > #whatsap,#message,#call{
+           display: flex;
+           align-items: flex-end;
+           gap: 10px;
+           padding:  5px;
+           font-family: 'BR Firma';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 16px;
+}
+#social > #call >img{
+           width: 40px;
+}
+#social > #message >img{
+           width: 40px;
+}
+#social > #whatsap >img{
+           width: 40px;
+}
+.image >img{
+             height: 90px;
+             width: 100px;
+             border: 2PX SOLID black;
+             border-radius:50%;
+             position: absolute;
+             top: 130px;
+             left: 20px;
+}
+.name{
+    position: absolute;
+    top: 150px;
+    left:50% ;
+    font-weight: bold;
+}
+#link{
+       border: 1px solid black;
+       background-color: #FFA500;
+       margin:0px 20px 10px 80px;
+       width: 180px;
+       height: 40px;
+       padding: 10px;
+       font-family: 'BR Firma';   
+        }
+#patronized{
+    width: 291px;
+    height: 45px;
+     padding: 0px 0px 70px 10px;
+    
+    font-family: 'BR Firma';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 45px;
+    
+}
+.banner1{
+    box-sizing: border-box;
+    background-color: #c4c4c4;
+    width: 20%;
+    height: 50%;
+    border:1px solid #FFA500;
+     border-radius: 15px;
+     position: relative;
+}
+.banner1> img{
+         width: 100%;
+         border:1px solid #FFA500;
+         border-top-left-radius: 15px;
+         border-top-right-radius: 15px;
+}
+#social1{
+     padding-top: 40px;
+
+}
+
+#social1 > #whatsap1,#message1,#call1{
+      display: flex;
+      align-items: flex-end;
+      gap: 10px;
+      padding:  5px;
+      font-family: 'BR Firma';
+       font-style: normal;
+       font-weight: 500;
+       font-size: 13px;
+       line-height: 16px;
+}
+#social1 > #call1 >img{
+      width: 40px;
+}
+#social1 > #message1 >img{
+      width: 40px;
+}
+#social1 > #whatsap1 >img{
+      width: 40px;
+}
+.image1 >img{
+        height: 90px;
+        width: 100px;
+        border: 2PX SOLID black;
+        border-radius:50%;
+        position: absolute;
+        top: 130px;
+        left: 20px;
+}
+.name1{
+position: absolute;
+top: 150px;
+left:50% ;
+font-weight: bold;
+}
+#link1{
+  border: 1px solid black;
+  background-color: #FFA500;
+  margin:0px 20px 10px 80px;
+  width: 180px;
+  height: 40px;
+  padding: 10px;
+  font-family: 'BR Firma';   
+   }
+main{
+      padding: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+}
+.banner2{
+    box-sizing: border-box;
+    background-color: #c4c4c4;
+    width: 20%;
+    height: 50%;
+    border:1px solid #FFA500;
+     border-radius: 15px;
+     position: relative;
+}
+.banner2> img{
+         width: 100%;
+         border:1px solid #FFA500;
+         border-top-left-radius: 15px;
+         border-top-right-radius: 15px;
+}
+#social2{
+     padding-top: 40px;
+
+}
+
+#social2 > #whatsap2,#message2,#call2{
+      display: flex;
+      align-items: flex-end;
+      gap: 10px;
+      padding:  5px;
+      font-family: 'BR Firma';
+       font-style: normal;
+       font-weight: 500;
+       font-size: 13px;
+       line-height: 16px;
+}
+#social2 > #call2 >img{
+      width: 40px;
+}
+#social2 > #message2 >img{
+      width: 40px;
+}
+#social2 > #whatsap2 >img{
+      width: 40px;
+}
+.image2 >img{
+        height: 90px;
+        width: 100px;
+        border: 2PX SOLID black;
+        border-radius:50%;
+        position: absolute;
+        top: 130px;
+        left: 20px;
+}
+.name2{
+position: absolute;
+top: 150px;
+left:50% ;
+font-weight: bold;
+}
+#link2{
+  border: 1px solid black;
+  background-color: #FFA500;
+  margin:0px 20px 10px 80px;
+  width: 180px;
+  height: 40px;
+  padding: 10px;
+  font-family: 'BR Firma';   
+   }
+
+   .banner3{
+    box-sizing: border-box;
+    background-color: #c4c4c4;
+    width: 20%;
+    height: 50%;
+    border:1px solid #FFA500;
+     border-radius: 15px;
+     position: relative;
+}
+.banner3> img{
+         width: 100%;
+         border:1px solid #FFA500;
+         border-top-left-radius: 15px;
+         border-top-right-radius: 15px;
+}
+#social3{
+     padding-top: 40px;
+
+}
+
+#social3 > #whatsap3,#message3,#call3{
+      display: flex;
+      align-items: flex-end;
+      gap: 10px;
+      padding:  5px;
+      font-family: 'BR Firma';
+       font-style: normal;
+       font-weight: 500;
+       font-size: 13px;
+       line-height: 16px;
+}
+#social3 > #call3 >img{
+      width: 40px;
+}
+#social3 > #message3 >img{
+      width: 40px;
+}
+#social3 > #whatsap3 >img{
+      width: 40px;
+}
+.image3 >img{
+        height: 90px;
+        width: 100px;
+        border: 2PX SOLID black;
+        border-radius:50%;
+        position: absolute;
+        top: 130px;
+        left: 20px;
+}
+.name3{
+position: absolute;
+top: 150px;
+left:50% ;
+font-weight: bold;
+}
+#link3{
+  border: 1px solid black;
+  background-color: #FFA500;
+  margin:0px 20px 10px 80px;
+  width: 180px;
+  height: 40px;
+  padding: 10px;
+  font-family: 'BR Firma';   
+   }
+   .banner4{
+    box-sizing: border-box;
+    background-color: #c4c4c4;
+    width: 20%;
+    height: 50%;
+    border:1px solid #FFA500;
+     border-radius: 15px;
+     position: relative;
+}
+.banner4> img{
+         width: 100%;
+         border:1px solid #FFA500;
+         border-top-left-radius: 15px;
+         border-top-right-radius: 15px;
+}
+#social4{
+     padding-top: 40px;
+
+}
+
+#social4 > #whatsap4,#message4,#call4{
+      display: flex;
+      align-items: flex-end;
+      gap: 10px;
+      padding:  5px;
+      font-family: 'BR Firma';
+       font-style: normal;
+       font-weight: 500;
+       font-size: 13px;
+       line-height: 16px;
+}
+#social4 > #call4 >img{
+      width: 40px;
+}
+#social4 > #message4 >img{
+      width: 40px;
+}
+#social4 > #whatsap4 >img{
+      width: 40px;
+}
+.image4 >img{
+        height: 90px;
+        width: 100px;
+        border: 2PX SOLID black;
+        border-radius:50%;
+        position: absolute;
+        top: 130px;
+        left: 20px;
+}
+.name4{
+position: absolute;
+top: 150px;
+left:50% ;
+font-weight: bold;
+}
+#link4{
+  border: 1px solid black;
+  background-color: #FFA500;
+  margin:0px 20px 10px 80px;
+  width: 180px;
+  height: 40px;
+  padding: 10px;
+  font-family: 'BR Firma';   
+   }
+
+   .banner5{
+    box-sizing: border-box;
+    background-color: #c4c4c4;
+    width: 20%;
+    height: 50%;
+    border:1px solid #FFA500;
+     border-radius: 15px;
+     position: relative;
+}
+.banner5> img{
+         width: 100%;
+         border:1px solid #FFA500;
+         border-top-left-radius: 15px;
+         border-top-right-radius: 15px;
+}
+#social5{
+     padding-top: 40px;
+
+}
+
+#social5 > #whatsap5,#message5,#call{
+      display: flex;
+      align-items: flex-end;
+      gap: 10px;
+      padding:  5px;
+      font-family: 'BR Firma';
+       font-style: normal;
+       font-weight: 500;
+       font-size: 13px;
+       line-height: 16px;
+}
+#social5 > #call5 >img{
+      width: 40px;
+}
+#social5 > #message5 >img{
+      width: 40px;
+}
+#social5 > #whatsap5 >img{
+      width: 40px;
+}
+.image5 >img{
+        height: 90px;
+        width: 100px;
+        border: 2PX SOLID black;
+        border-radius:50%;
+        position: absolute;
+        top: 130px;
+        left: 20px;
+}
+.name5{
+position: absolute;
+top: 150px;
+left:50% ;
+font-weight: bold;
+}
+#link5{
+  border: 1px solid black;
+  background-color: #FFA500;
+  margin:0px 20px 10px 80px;
+  width: 180px;
+  height: 40px;
+  padding: 10px;
+  font-family: 'BR Firma';   
+   }
+
+.banner6{
+box-sizing: border-box;
+background-color: #c4c4c4;
+width: 20%;
+height: 50%;
+border:1px solid #FFA500;
+border-radius: 15px;
+position: relative;
+}
+.banner6> img{
+    width: 100%;
+    border:1px solid #FFA500;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#social6{
+padding-top: 40px;
+
+}
+
+#social6 > #whatsap6,#message6,#call1{
+ display: flex;
+ align-items: flex-end;
+ gap: 10px;
+ padding:  5px;
+ font-family: 'BR Firma';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+}
+#social6 > #call6 >img{
+ width: 40px;
+}
+#social6 > #message6 >img{
+ width: 40px;
+}
+#social6 > #whatsap6 >img{
+ width: 40px;
+}
+.image6 >img{
+   height: 90px;
+   width: 100px;
+   border: 2PX SOLID black;
+   border-radius:50%;
+   position: absolute;
+   top: 130px;
+   left: 20px;
+}
+.name6{
+position: absolute;
+top: 150px;
+left:50% ;
+font-weight: bold;
+}
+#link6{
+border: 1px solid black;
+background-color: #FFA500;
+margin:0px 20px 10px 80px;
+width: 180px;
+height: 40px;
+padding: 10px;
+font-family: 'BR Firma';   
+}
+
+.banner7{
+box-sizing: border-box;
+background-color: #c4c4c4;
+width: 20%;
+height: 50%;
+border:1px solid #FFA500;
+border-radius: 15px;
+position: relative;
+}
+.banner7> img{
+    width: 100%;
+    border:1px solid #FFA500;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#social7{
+padding-top: 40px;
+
+}
+
+#social7 > #whatsap7,#message7,#call7{
+ display: flex;
+ align-items: flex-end;
+ gap: 10px;
+ padding:  5px;
+ font-family: 'BR Firma';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+}
+#social7 > #call7 >img{
+ width: 40px;
+}
+#social7 > #message7 >img{
+ width: 40px;
+}
+#social7 > #whatsap7 >img{
+ width: 40px;
+}
+.image7 >img{
+   height: 90px;
+   width: 100px;
+   border: 2PX SOLID black;
+   border-radius:50%;
+   position: absolute;
+   top: 130px;
+   left: 20px;
+}
+.name7{
+position: absolute;
+top: 150px;
+left:50% ;
+font-weight: bold;
+}
+#link7{
+border: 1px solid black;
+background-color: #FFA500;
+margin:0px 20px 10px 80px;
+width: 180px;
+height: 40px;
+padding: 10px;
+font-family: 'BR Firma';   
+}
+
+.banner8{
+box-sizing: border-box;
+background-color: #c4c4c4;
+width: 20%;
+height: 50%;
+border:1px solid #FFA500;
+border-radius: 15px;
+position: relative;
+}
+.banner8> img{
+    width: 100%;
+    border:1px solid #FFA500;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#social8{
+padding-top: 40px;
+
+}
+
+#social8 > #whatsap8,#message8,#call8{
+ display: flex;
+ align-items: flex-end;
+ gap: 10px;
+ padding:  5px;
+ font-family: 'BR Firma';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+}
+#social8 > #call8 >img{
+ width: 40px;
+}
+#social8 > #message8 >img{
+ width: 40px;
+}
+#social8 > #whatsap8 >img{
+ width: 40px;
+}
+.image8 >img{
+   height: 90px;
+   width: 100px;
+   border: 2PX SOLID black;
+   border-radius:50%;
+   position: absolute;
+   top: 130px;
+   left: 20px;
+}
+.name8{
+position: absolute;
+top: 150px;
+left:50% ;
+font-weight: bold;
+}
+#link8{
+border: 1px solid black;
+background-color: #FFA500;
+margin:0px 20px 10px 80px;
+width: 180px;
+height: 40px;
+padding: 10px;
+font-family: 'BR Firma';   
+}
+.banner9{
+box-sizing: border-box;
+background-color: #c4c4c4;
+width: 20%;
+height: 50%;
+border:1px solid #FFA500;
+border-radius: 15px;
+position: relative;
+}
+.banner9> img{
+    width: 100%;
+    border:1px solid #FFA500;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#social9{
+padding-top: 40px;
+
+}
+
+#social9 > #whatsap9,#message9,#call9{
+ display: flex;
+ align-items: flex-end;
+ gap: 10px;
+ padding:  5px;
+ font-family: 'BR Firma';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+}
+#social9 > #call9 >img{
+ width: 40px;
+}
+#social9 > #message9 >img{
+ width: 40px;
+}
+#social9 > #whatsap9 >img{
+ width: 40px;
+}
+.image9 >img{
+   height: 90px;
+   width: 100px;
+   border: 2PX SOLID black;
+   border-radius:50%;
+   position: absolute;
+   top: 130px;
+   left: 20px;
+}
+.name9{
+position: absolute;
+top: 150px;
+left:50% ;
+font-weight: bold;
+}
+#link9{
+border: 1px solid black;
+background-color: #FFA500;
+margin:0px 20px 10px 80px;
+width: 180px;
+height: 40px;
+padding: 10px;
+font-family: 'BR Firma';   
+}
+
+#more{
+       border: 1px solid black;
+       background-color: #FFA500;
+       margin:0px 0px 10px 80%;
+       text-decoration: none;
+       padding: 5px;
+}
+footer{
+    background-color: #FFA500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 15px auto;
+    padding: 20px;
+    gap: 20px;
+    font-size: large;
+    
+
+}
