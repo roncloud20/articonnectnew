@@ -2,28 +2,66 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0; 
+    font-family: 'Nunito', sans-serif;
 }
    /* landing css */
 
 header{background-color: #ffffff;
-        display: flex;
+        /* display: flex;
         justify-content: space-between;
         padding: 10px 100px;
         align-items: center;
-        align-content: center;
+        align-content: center; */
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 #header1 >img{
       height: 40px;
 }
+#navIndex{
+           display: none;
+           justify-content: space-between;
+           gap: 20px;
+           align-items: center;
+         
+}
+  #navBtn{
+      display: flex;
+      
+       
+
+} 
+.navPhone{
+      background-color: #c4c4c4;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      position: absolute;
+      top: 80px;
+      right: 0px;
+      width: 360px;
+      height: 800px;
+
+      
+}
+.navPhone >img{
+      
+      width: 80px;
+      height: 50px;
+}
 #header1{
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        gap: 70px;
+        padding: 15px 100px;
+        
+        /* justify-content: space-between;
+        align-items: center; */
+        
 }
-#header2{
+
+ #header2{
           display: flex;
+          
           justify-content:space-between ;
           border: 1px solid black;
           width: 220px;
@@ -33,6 +71,38 @@ header{background-color: #ffffff;
       padding: 10px;       
           top:20px;
 }
+#header33{
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            
+
+}
+#headerAdd{
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         gap: 20px;
+}
+#headerAdd5{
+             display: flex;
+             justify-content: space-between;
+             gap: 20px;
+}
+#headerAdd5 > img{
+                  height:50px;
+                  width: 50px;
+                  border-radius: 50%;
+                  border: 2px solid black;
+}
+#searchIndex{
+               border: none;
+               height: 100%;
+               width: 100%;
+}
+
+
+
 nav{
       display: flex;
       justify-content: space-between;
@@ -45,7 +115,7 @@ nav > a{
 }
 #get{
       background-color:  #FFA500;
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
        border-radius: 5px;
        width: 100px;
         height: 30px;
@@ -53,6 +123,7 @@ nav > a{
         text-decoration: none;
         
 }
+
 #top{
     display: flex;
     width: 100%;
@@ -65,10 +136,13 @@ nav > a{
 }
 #top >img{
            width: 70%;
+           object-fit: cover;
 } 
 #top1{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         
         
       }
@@ -78,17 +152,45 @@ nav > a{
             border-radius: 5px;
             height: 40px;
             width: 100px;
-            margin: 0px auto;
+            margin: 10px auto;
             padding:10px;
       }
+      #started{
+            background: #FFA500;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 5px;
+            height: 40px;
+            width: 100px;
+            margin: 10px auto;
+            padding:10px;
+              display: none;
+              
+      }
+      #patronized{
+            width: 291px;
+            height: 45px;
+             padding: 0px 0px 70px 10px;
+            margin: 30px ;
+            font-family: 'BR Firma';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 45px;
+            
+        }
       #mainIndex{
-            gap: 20px;
-            display: grid;
-            margin-left: 20px;
-            place-items: center;
+            gap: 30px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            align-content: space-between;
+            align-items: center;
+            margin:15px  40px;
+            box-sizing: border-box;
+            /* place-items: center;
             place-content: center;
             grid-template-rows: 1fr 1fr 1fr;
-            grid-template-columns: 1fr 1fr 1fr ;
+            grid-template-columns: 1fr 1fr 1fr ; */
       }
             
       /* #feed{
@@ -99,84 +201,99 @@ nav > a{
 .banner{
          box-sizing: border-box;
          background-color: #c4c4c4;
-         width: 70%;
-         height: 100%;
+         /* width: 20%;
+         height: 30%; */
+         width: 400px;
+         height: 600px;
          border:1px solid #FFA500;
           border-radius: 15px;
           position: relative;
 }
 .banner> img{
               width: 100%;
+              height: 40%;
               border:1px solid #FFA500;
               border-top-left-radius: 15px;
               border-top-right-radius: 15px;
 }
 #social{
-          padding-top: 40px;
+          padding: 50px 0px 0px 20px ;
+          overflow: hidden;
+          width: 100%;
+          box-sizing: border-box;
+        
 
 }
 
 #social > #whatsap,#message,#call{
            display: flex;
            align-items: flex-end;
+           flex-wrap: wrap;
            gap: 10px;
            padding:  5px;
            font-family: 'BR Firma';
             font-style: normal;
             font-weight: 500;
-            font-size: 13px;
+            font-size: 20px;
             line-height: 16px;
 }
 #social > #call >img{
-           width: 40px;
+           width: 70px;
 }
 #social > #message >img{
-           width: 40px;
+           width: 70px;
 }
 #social > #whatsap >img{
-           width: 40px;
+           width: 70px;
 }
 .image >img{
-             height: 90px;
-             width: 100px;
-             border: 2PX SOLID black;
+            height: 110px;
+            width: 90px;
+            object-fit: cover;
+             /* height: 25%;
+             width: 30%; */
+             border: 2px solid black;
              border-radius:50%;
-             position: absolute;
-             top: 150px;
-             left: 20px;
+              position: absolute;
+              left: 20px;
+              
+            
 }
-.name{
+ .image{
+        display: flex;
+
+       /* justify-content: space-between;  */
+        
+        align-items: center;
+
+        position: relative; 
+       /* top: 20px;
+        left: 10px;  */
+        bottom: 15px;
+} 
+ .name{
     position: absolute;
-    top: 150px;
-    left:50% ;
-    font-weight: bold;
-}
+    /* top: 0px;
+    left:120px ; */
+    left: 250px;
+    top: 10px;
+    font-weight: bolder;
+} 
 #link{
        border: 1px solid black;
        background-color: #FFA500;
-       margin:0px 20px 10px 80px;
-       width: 180px;
-       height: 40px;
-       padding: 10px;
+       margin:10px 20px 100px 200px;
+       width: 170px;
+       height: 30px;
+       padding: 5px;
        font-family: 'BR Firma';   
         }
-#patronized{
-    width: 291px;
-    height: 45px;
-     padding: 0px 0px 70px 10px;
-    
-    font-family: 'BR Firma';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 45px;
-    
-}
-.banner1{
+
+/* .banner1{
     box-sizing: border-box;
     background-color: #c4c4c4;
-    width: 70%;
-    height: 100%;
+    width: 20%;
+    height: 30%;
     border:1px solid #FFA500;
      border-radius: 15px;
      position: relative;
@@ -213,14 +330,14 @@ nav > a{
       width: 40px;
 }
 .image1 >img{
-        height: 90px;
-        width: 100px;
+      height: 25%;
+      width: 30%;
+      top: 23%;
+      left: 5%;
         border: 2PX SOLID black;
         border-radius:50%;
         position: absolute;
-        top: 150px;
-        left: 20px;
-}
+      }
 .name1{
 position: absolute;
 top: 150px;
@@ -230,18 +347,19 @@ font-weight: bold;
 #link1{
   border: 1px solid black;
   background-color: #FFA500;
-  margin:0px 20px 10px 80px;
-  width: 180px;
-  height: 40px;
-  padding: 10px;
+  margin:0px 20px 10px 40px;
+  width: 170px;
+  height: 30px;
+  padding: 5px;
+  
   font-family: 'BR Firma';   
    }
 
 .banner2{
     box-sizing: border-box;
     background-color: #c4c4c4;
-    width: 70%;
-    height: 100%;
+    width: 20%;
+    height: 30%;
     border:1px solid #FFA500;
      border-radius: 15px;
      position: relative;
@@ -278,13 +396,14 @@ font-weight: bold;
       width: 40px;
 }
 .image2 >img{
-        height: 90px;
-        width: 100px;
+      height: 25%;
+             width: 30%;
+             top: 23%;
+             left: 5%;
         border: 2PX SOLID black;
         border-radius:50%;
         position: absolute;
-        top: 150px;
-        left: 20px;
+        
 }
 .name2{
 position: absolute;
@@ -295,18 +414,18 @@ font-weight: bold;
 #link2{
   border: 1px solid black;
   background-color: #FFA500;
-  margin:0px 20px 10px 80px;
-  width: 180px;
-  height: 40px;
-  padding: 10px;
+  margin:0px 20px 10px 40px;
+  width: 170px;
+  height: 30px;
+  padding: 5px;
   font-family: 'BR Firma';   
    }
 
    .banner3{
     box-sizing: border-box;
     background-color: #c4c4c4;
-    width: 70%;
-    height: 100%;
+    width: 20%;
+    height: 30%;
     border:1px solid #FFA500;
      border-radius: 15px;
      position: relative;
@@ -343,13 +462,14 @@ font-weight: bold;
       width: 40px;
 }
 .image3 >img{
-        height: 90px;
-        width: 100px;
+      height: 25%;
+      width: 30%;
+      top: 23%;
+      left: 5%;
         border: 2PX SOLID black;
         border-radius:50%;
         position: absolute;
-        top: 150px;
-        left: 20px;
+      
 }
 .name3{
 position: absolute;
@@ -360,17 +480,17 @@ font-weight: bold;
 #link3{
   border: 1px solid black;
   background-color: #FFA500;
-  margin:0px 20px 10px 80px;
-  width: 180px;
-  height: 40px;
-  padding: 10px;
+  margin:0px 20px 10px 40px;
+  width: 170px;
+  height: 30px;
+  padding: 5px;;
   font-family: 'BR Firma';   
    }
    .banner4{
     box-sizing: border-box;
     background-color: #c4c4c4;
-    width: 70%;
-    height: 100%;
+    width: 20%;
+    height: 30%;
     border:1px solid #FFA500;
      border-radius: 15px;
      position: relative;
@@ -407,13 +527,14 @@ font-weight: bold;
       width: 40px;
 }
 .image4 >img{
-        height: 90px;
-        width: 100px;
+      height: 25%;
+      width: 30%;
+      top: 23%;
+      left: 5%;
         border: 2PX SOLID black;
         border-radius:50%;
         position: absolute;
-        top: 150px;
-        left: 20px;
+       
 }
 .name4{
 position: absolute;
@@ -424,18 +545,18 @@ font-weight: bold;
 #link4{
   border: 1px solid black;
   background-color: #FFA500;
-  margin:0px 20px 10px 80px;
-  width: 180px;
-  height: 40px;
-  padding: 10px;
+  margin:0px 20px 10px 40px;
+  width: 170px;
+  height: 30px;
+  padding: 5px;;
   font-family: 'BR Firma';   
    }
 
    .banner5{
     box-sizing: border-box;
     background-color: #c4c4c4;
-    width: 70%;
-    height: 100%;
+    width: 20%;
+    height: 30%;
     border:1px solid #FFA500;
      border-radius: 15px;
      position: relative;
@@ -451,7 +572,7 @@ font-weight: bold;
 
 }
 
-#social5 > #whatsap5,#message5,#call{
+#social5 > #whatsap5,#message5,#call5{
       display: flex;
       align-items: flex-end;
       gap: 10px;
@@ -472,13 +593,14 @@ font-weight: bold;
       width: 40px;
 }
 .image5 >img{
-        height: 90px;
-        width: 100px;
+      height: 25%;
+      width: 30%;
+      top: 23%;
+      left: 5%;;
         border: 2PX SOLID black;
         border-radius:50%;
         position: absolute;
-        top: 150px;
-        left: 20px;
+       ;
 }
 .name5{
 position: absolute;
@@ -489,18 +611,18 @@ font-weight: bold;
 #link5{
   border: 1px solid black;
   background-color: #FFA500;
-  margin:0px 20px 10px 80px;
-  width: 180px;
-  height: 40px;
-  padding: 10px;
+  margin:0px 20px 10px 40px;
+  width: 170px;
+  height: 30px;
+  padding: 5px;
   font-family: 'BR Firma';   
    }
 
 .banner6{
 box-sizing: border-box;
 background-color: #c4c4c4;
-width: 70%;
-height: 100%;
+width: 20%;
+height: 30%;
 border:1px solid #FFA500;
 border-radius: 15px;
 position: relative;
@@ -516,7 +638,7 @@ padding-top: 40px;
 
 }
 
-#social6 > #whatsap6,#message6,#call1{
+#social6 > #whatsap6,#message6,#call6{
  display: flex;
  align-items: flex-end;
  gap: 10px;
@@ -537,13 +659,14 @@ padding-top: 40px;
  width: 40px;
 }
 .image6 >img{
-   height: 90px;
-   width: 100px;
+      height: 25%;
+      width: 30%;
+      top: 23%;
+      left: 5%;
    border: 2PX SOLID black;
    border-radius:50%;
    position: absolute;
-   top: 150px;
-   left: 20px;
+   
 }
 .name6{
 position: absolute;
@@ -554,18 +677,18 @@ font-weight: bold;
 #link6{
 border: 1px solid black;
 background-color: #FFA500;
-margin:0px 20px 10px 80px;
-width: 180px;
-height: 40px;
-padding: 10px;
+margin:0px 20px 10px 40px;
+  width: 170px;
+  height: 30px;
+  padding: 5px;
 font-family: 'BR Firma';   
 }
 
 .banner7{
 box-sizing: border-box;
 background-color: #c4c4c4;
-width: 70%;
-height: 100%;
+width: 20%;
+height: 30%;
 border:1px solid #FFA500;
 border-radius: 15px;
 position: relative;
@@ -602,13 +725,14 @@ padding-top: 40px;
  width: 40px;
 }
 .image7 >img{
-   height: 90px;
-   width: 100px;
+      height: 25%;
+      width: 30%;
+      top: 23%;
+      left: 5%;
    border: 2PX SOLID black;
    border-radius:50%;
    position: absolute;
-   top: 150px;
-   left: 20px;
+   
 }
 .name7{
 position: absolute;
@@ -619,18 +743,18 @@ font-weight: bold;
 #link7{
 border: 1px solid black;
 background-color: #FFA500;
-margin:0px 20px 10px 80px;
-width: 180px;
-height: 40px;
-padding: 10px;
+margin:0px 20px 10px 40px;
+  width: 170px;
+  height: 30px;
+  padding: 5px;
 font-family: 'BR Firma';   
 }
 
 .banner8{
 box-sizing: border-box;
 background-color: #c4c4c4;
-width: 70%;
-height: 100%;
+width: 20%;
+height: 30%;
 border:1px solid #FFA500;
 border-radius: 15px;
 position: relative;
@@ -667,13 +791,14 @@ padding-top: 40px;
  width: 40px;
 }
 .image8 >img{
-   height: 90px;
-   width: 100px;
+      height: 25%;
+      width: 30%;
+      top: 23%;
+      left: 5%;
    border: 2PX SOLID black;
    border-radius:50%;
    position: absolute;
-   top: 150px;
-   left: 20px;
+  
 }
 .name8{
 position: absolute;
@@ -684,17 +809,17 @@ font-weight: bold;
 #link8{
 border: 1px solid black;
 background-color: #FFA500;
-margin:0px 20px 10px 80px;
-width: 180px;
-height: 40px;
-padding: 10px;
+margin:0px 20px 10px 40px;
+  width: 170px;
+  height: 30px;
+  padding: 5px;
 font-family: 'BR Firma';   
 }
 .banner9{
 box-sizing: border-box;
 background-color: #c4c4c4;
-width: 70%;
-height: 100%;
+width: 20%;
+height: 30%;
 border:1px solid #FFA500;
 border-radius: 15px;
 position: relative;
@@ -731,13 +856,14 @@ padding-top: 40px;
  width: 40px;
 }
 .image9 >img{
-   height: 90px;
-   width: 100px;
+      height: 25%;
+      width: 30%;
+      top: 23%;
+      left: 5%;;
    border: 2PX SOLID black;
    border-radius:50%;
    position: absolute;
-   top: 150px;
-   left: 20px;
+ ;
 }
 .name9{
 position: absolute;
@@ -748,16 +874,16 @@ font-weight: bold;
 #link9{
 border: 1px solid black;
 background-color: #FFA500;
-margin:0px 20px 10px 80px;
-width: 180px;
-height: 40px;
-padding: 10px;
+margin:0px 20px 10px 40px;
+  width: 170px;
+  height: 30px;
+  padding: 5px;
 font-family: 'BR Firma';   
 }
-
+ */
 #more{
-       border: 1px solid black;
-       background-color: #FFA500;
+
+      
        margin:0px 0px 10px 80%;
        text-decoration: none;
        padding: 5px;
@@ -775,6 +901,208 @@ footer{
     
 
 }
+@media  (max-width: 768px){
+      #navIndex{
+             display: flex;
+             color: white;
+              }
+      nav{
+            display: none;
+      }
+      #header33{
+            display: none;
+      }
+      #header1{
+              display: flex;
+              padding: 20px;
+      }
+      .navPhone{display: none;
+            
+      }
+      .active{
+            display:flex;
+            color: white;
+            width: 360px;
+            height: 800px;
+            width: 100%;
+
+
+      }
+      #top{
+             background-image: url(tail.jpeg);
+             background-size: cover;
+             /* width: 100%; */
+             height:200;
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+             padding-top: 50px;
+            
+      
+      }
+      
+      /* #top1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+      } */
+      /* #topPara{
+            width: 100%;
+      } */
+       
+      #top >img{
+            display: none;
+      }
+      #top1{
+             display: flex;
+            flex-direction: column; 
+            
+            /* overflow: hidden; */
+      }
+      #mainIndex{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              align-content: center;
+              width: 100;
+              
+              background: rgba(255, 165, 0, 0.2);
+      }
+      /* #bar{
+            display: block;
+            cursor: pointer;
+            
+      } */
+      #join{
+            display: none;
+      }
+      #started{
+            background: #FFA500;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 5px;
+            height: 40px;
+            width: 100px;
+            
+            padding:10px;
+              display: flex;
+              
+      }
+      
+      /* #started{
+            background-color:  #FFA500;
+            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+             border-radius: 5px;
+             width: 100px;
+              height: 30px;
+              padding: 5px;
+              text-decoration: none;
+              display: flex;
+              overflow: hidden;
+              
+      } */
+      #more{
+
+            background-color: #C4C4C4;
+            margin:0px 0px 10px 80%;
+            text-decoration: none;
+            padding: 5px;
+     }
+     .banner{
+      box-sizing: border-box;
+      background-color: #c4c4c4;
+      /* width: 20%;
+      height: 30%; */
+      width: 300px;
+      height: 500px;
+      border:1px solid #FFA500;
+       border-radius: 15px;
+       position: relative;
+}
+.banner> img{
+      width: 100%;
+      height: 30;
+      border:1px solid #FFA500;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+}
+#social{
+  padding: 50px 0px 0px 20px ;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+
+
+}
+
+#social > #whatsap,#message,#call{
+   display: flex;
+   align-items: flex-end;
+   flex-wrap: wrap;
+   gap: 10px;
+   padding:  5px;
+   font-family: 'BR Firma';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+}
+#social > #call >img{
+   width: 50px;
+}
+#social > #message >img{
+   width: 50px;
+}
+#social > #whatsap >img{
+   width: 50px;
+}
+.image >img{
+    height: 110px;
+    width: 90px;
+    object-fit: cover;
+     /* height: 25%;
+     width: 30%; */
+     border: 2px solid black;
+     border-radius:50%;
+      position: absolute;
+      left: 20px;
+      
+    
+}
+.image{
+display: flex;
+
+/* justify-content: space-between;  */
+
+align-items: center;
+
+position: relative; 
+/* top: 20px;
+left: 10px;  */
+bottom: 15px;
+} 
+.name{
+position: absolute;
+/* top: 0px;
+left:120px ; */
+left: 180px;
+top: 10px;
+font-weight: bolder;
+} 
+#link{
+border: 1px solid black;
+background-color: #FFA500;
+margin:10px 20px 15px 100px;
+width: 170px;
+height: 30px;
+padding: 5px;
+font-family: 'BR Firma';   
+}
+}
+
 /* signIn css*/
 
 #signInMain{
@@ -806,6 +1134,7 @@ footer{
    #main2 >img{
       width: 100%;
       height:100%;
+      object-fit: cover;
   } 
   #user,#pass{
               border: 1px solid black;
@@ -879,4 +1208,107 @@ footer{
 #picAdd{
          width: 100%;
          height: 150px;
+         object-fit: cover;
+         
+}
+
+#addWorkMain1{
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+                width: 700px;
+                height: 500px;
+                background-color: #E5E5E5; 
+               margin: auto;
+               padding: 40px;
+               box-sizing: border-box;            
+            
+}
+#showAddWork{
+      height: 30px;
+      margin: 10px 24%;
+      font-family: 'BR Firma';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 30px;
+}
+#addWorkMain2{
+               border: 1px solid black;
+               background-color: #E5E5E5; 
+               width: 400px;
+               height: 20px;
+               margin:20px ;
+               font-family: 'BR Firma';
+               padding:3px 5px;
+                  font-weight: 150px;
+                  font-size: 15px;
+
+}
+#captionAddWork{
+      margin: 0px 20px ;
+      width:400px;
+       height: 20px;
+       font-family: 'BR Firma';
+      font-weight: 150;
+      font-size: 15px;
+      padding:5px 5px;
+      background: transparent;
+
+}
+#fileAddWork{
+      width: 200px;
+      height: 25px;
+      padding:3px;
+      margin: 20px;
+      border: 1px solid black;
+      background: #C4C4C4;
+      font-family: 'BR Firma';
+      font-weight: 150;
+      font-size: 15px
+}
+#addWorkMain1 >img{
+      width: 175px;
+      height: 200px;
+}
+#changeAddWork{
+      width: 60px;
+      text-align: center;
+      height: 30px;
+      margin-top: 15px;
+      padding: 5px;
+      background: #FFA500;
+      font-family: 'BR Firma';
+      
+      font-size: 15px
+
+}
+#uploadAddWork{
+      width: 300px;
+      height: 49px;  
+      background: #17AD1D;
+      margin-top: 20px;
+      text-align: center;
+      padding: 5px;
+}
+#bottomAddWork{
+           display: flex;
+           flex-direction: column;
+           margin: 100px 10% 0px ;
+           
+
+}
+#bottomAddWork1{
+      display: flex;
+     gap: 40px;
+     width: 100%;
+     align-items: center;
+     align-content: center;
+    
+
+}
+#bottomAddWork1 >img{
+      width: 200px;
+      height: 200px;
+      
 }

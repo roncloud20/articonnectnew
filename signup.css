@@ -1,0 +1,15 @@
+body{padding: 0px;
+margin: 0px;}
+nav{display: flex;justify-content: space-between;align-items: center;}
+.logo{padding: 10px;background-color:#FFA500;}
+.first{
+    display: flex;align-items: center;gap: 100px;
+}
+footer{background-color: #FFA500;display: flex;justify-content: space-between;align-items: center;padding: 10px;}
+
+
+
+
+
+
+
