@@ -14,3 +14,20 @@ cancel.addEventListener("click",function(){
 })
 
 
+//signUp handler
+
+var user =document.getElementById("user")
+ var number =document.getElementById("number")
+ var pass =document.getElementById("pass")
+ var pass1 =document.getElementById("pass1")
+ var SignUp =document.getElementById("SignUp")
+ var Sign =document.getElementById("Sign")
+
+
+function check(){
+  if(user.value !== "" && pass.value !==""){
+    Sign.style.backgroundColor="blue"
+  }else {
+            Sign.style.backgroundColor=" #FFA500"
+  }
+}

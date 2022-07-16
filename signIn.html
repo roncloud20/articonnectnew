@@ -15,8 +15,8 @@
     <header>
         <div id="header1">
     
-            <img src="logo.jfif"/>
-                
+            <a href="index.html"><img src="logo.jfif" id="logo" height="40px"/></a> 
+            
                         <div id="header33">
                             <!-- <div  id="header2">
                             <input type="text" placeholder="looking for" id="searchIndex"/>
@@ -35,8 +35,8 @@
         
         
         <nav>
-            <a href="#">Categories</a>
-            <a href="#" id="get">GET LISTED</a>
+            <a href="category.html">Categories</a>
+            <a href="signIn.html" id="get">GET LISTED</a>
             
         </nav>
         <div id="navIndex">
@@ -46,11 +46,11 @@
             
                 <div class="cancel"> &#10005;</div>
     
-               <img src="access/logo.jfif"/>
-               <div>HOME </div>
-                <div>Categories</div>
-                <div>About&#10006;</div>
-                <div id="signIndex">Sign In</div>
+                <a href="index.html"> <img src="access/logo.jfif"/></a>
+                <a href="index.html"><div>HOME </div></a>
+                <a href="index.html"><div>Categories </div></a>
+                <a href="index.html"><div>About  </div></a>
+                <a href="index.html"> <div id="signIndex">Sign In</div></a>
             </div>
       </div>
         <!-- <div id="headerAdd5">
@@ -64,18 +64,18 @@
     
     <div id="signInMain">
          <div id="main1">
-            <h1 id="signIn">Sign In</h1>
-            <input type="text"  placeholder="Username" id="user"/>
-            <br/>
-            <br/>
-
+             <a href="index.html"><div id="signCancel"> &#10005;</div></a>
+             <h1 id="signIn">Sign In</h1>
+            <input type="text"  placeholder="Username" id="user" oninput="check()"/>
             <input type="text"  placeholder="Password" id="pass"/>
             <h1 id="forget">Forget Password</h1>
             <span id="Sign">Sign In</span>
-            <p id="Sign1">Don't have an account?<span id="sign2">Sign Up</span></p>
-            <span id="or">____________ or ____________</span>
+            <p id="Sign1">Don't have an account?<a href="signupextend.html"><span id="sign2">Sign Up</span></a></p>
+            <span id="or">_______or _______</span>
             <div id="google">Google</div>
             <div id="face">Facebook</div>
+            <p id="signPhone">Don't have an account?<span id="signPhone1">Sign Up</span></p>
+    
          
          </div>
          <div id="main2">
